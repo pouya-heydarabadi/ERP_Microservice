@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2EB06017-6921-46CE-B9D9-7918149CF7EE}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{5EA0533D-E95C-403D-B80F-420FB43586A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{156112A5-A15C-421B-9E7C-2C3B465DD0E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sale", "Sale", "{2391ED2F-549C-49CD-904D-22F76AD2FC47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{D2EE8638-BBCF-4D68-BDB0-860D8F889755}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Erp.Catalog.Domain", "Modules\Catalog\Erp.Catalog.Domain\Erp.Catalog.Domain.csproj", "{40F1E4CF-C16E-44B5-BE69-D685B7AC841D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40F1E4CF-C16E-44B5-BE69-D685B7AC841D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F1E4CF-C16E-44B5-BE69-D685B7AC841D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40F1E4CF-C16E-44B5-BE69-D685B7AC841D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40F1E4CF-C16E-44B5-BE69-D685B7AC841D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2391ED2F-549C-49CD-904D-22F76AD2FC47} = {156112A5-A15C-421B-9E7C-2C3B465DD0E5}
+		{D2EE8638-BBCF-4D68-BDB0-860D8F889755} = {156112A5-A15C-421B-9E7C-2C3B465DD0E5}
+		{40F1E4CF-C16E-44B5-BE69-D685B7AC841D} = {D2EE8638-BBCF-4D68-BDB0-860D8F889755}
+		{156112A5-A15C-421B-9E7C-2C3B465DD0E5} = {5EA0533D-E95C-403D-B80F-420FB43586A5}
+	EndGlobalSection
+EndGlobal

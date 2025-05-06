@@ -1,0 +1,13 @@
+﻿services:
+  erp.api:
+    image: erp.api
+    build:
+      context: .
+      dockerfile: Erp.API/Dockerfile
+
+  erp.modules.catalog.domain:
+    image: erp.modules.catalog.domain
+    build:
+      context: .
+      dockerfile: Modules/Catalog/Erp.Modules.Catalog.Domain/Dockerfile
+
